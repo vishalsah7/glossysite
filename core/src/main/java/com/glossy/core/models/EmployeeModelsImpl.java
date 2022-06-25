@@ -1,6 +1,5 @@
 package com.glossy.core.models;
 
-import com.glossy.core.models.EmployeeModelsService;
 import com.glossy.core.services.EmployeeDetailsService;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;

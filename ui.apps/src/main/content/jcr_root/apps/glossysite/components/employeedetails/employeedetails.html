@@ -1,0 +1,10 @@
+<div>employee details testing </div>
+Entered text is ${properties.text}
+<sly data-sly-use.employee="com.glossy.core.models.EmployeeModelsService">
+    <p>
+        NAME : ${employee.employeeName}
+    </p>
+    <p>
+        ADDRESS : ${employee.employeeAddress}
+    </p>
+</sly>

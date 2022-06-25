@@ -1,4 +1,4 @@
-package com.glossy.core.models.services;
+package com.glossy.core.models;
 
 public interface EmployeeModelsService {
     public String getEmployeeName();

@@ -1,0 +1,1 @@
+mvn -B archetype:generate -D archetypeGroupId=com.adobe.aem  -D archetypeArtifactId=aem-project-archetype -D archetypeVersion=36 -D appTitle="Glossy Site" -D appId="glossysite" -D groupId="com.glossy"

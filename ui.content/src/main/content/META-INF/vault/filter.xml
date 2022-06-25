@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/glossysite" mode="merge"/>
+    <filter root="/content/glossysite" mode="merge"/>
+    <filter root="/content/dam/glossysite/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/glossysite" mode="merge"/>
+</workspaceFilter>

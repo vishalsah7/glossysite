@@ -7,4 +7,7 @@ Entered text is ${properties.text}
     <p>
         ADDRESS : ${employee.employeeAddress}
     </p>
+    <sly data-sly-list="${employee.osgiConfigsList}">
+        <p>list item ${item} </p>
+    </sly>
 </sly>

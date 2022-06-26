@@ -7,8 +7,8 @@ import org.osgi.service.metatype.annotations.ObjectClassDefinition;
 public @interface DemoOsgiFactoryConfig {
 
     @AttributeDefinition(name = "name", description = "address")
-    public String getName() default "vishal";
+    public String getName() default "vishal - factory";
 
     @AttributeDefinition(name = "address", description = "address")
-    public String getAddress() default "Anna salai";
+    public String getAddress() default "Anna salai - factory";
 }

@@ -9,7 +9,7 @@ import org.osgi.service.metatype.annotations.Designate;
 import java.util.ArrayList;
 import java.util.List;
 
-@Component(service = EmployeeDetailsService.class, immediate = true, name = "service3")
+@Component(service = EmployeeDetailsService.class, configurationPolicy = ConfigurationPolicy.REQUIRE, immediate = true, name = "service3")
 @Designate(ocd = DemoOsgiFactoryConfig.class, factory = true)
 public class EmployeeDetailsFactoryServiceImpl implements EmployeeDetailsService {
 
